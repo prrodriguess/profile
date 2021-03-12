@@ -1,8 +1,9 @@
 @import url('https://fonts.googleapis.com/css2?family=Bebas+Neue&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Montserrat&display=swap');
 
-body {
-    background: #F7F9FC;
-    color: #575F7D;
+.body-style {
+    background-image: url(https://iphonewallpaperworld.com/wp-content/uploads/2020/03/desktop-wallpaper-12.jpg);
+    background-size: cover;
     font-size: 17px;
     font-weight: lighter;
 }
@@ -10,23 +11,33 @@ body {
 h1, h2, h3 {
     font-family: 'Bebas Neue', cursive;
     font-size: 0.5rem;
+    color: white;
+}
+
+.name {
+    color: #176ae7;
 }
 
 h2 {
-    color: crimson;
+    color: #176ae7;
 }
 
 .container {
-    margin: 40px auto;
+    margin: 0;
     text-align: center;
 }
     .image-profile {
         border-radius: 50%;
         text-align: center !important;
+        font-size: 0rem !important;
+        margin-bottom: 1rem;
     }
 
     p {
         line-height: 1.5rem;
+        margin: 1.5rem !important;
+        font-family: 'Montserrat', sans-serif;
+        color: white;
     }
 
     .btn-primary {
@@ -39,14 +50,6 @@ h2 {
         text-decoration: none !important;
     }
 
-btn:hover {
-    text-shadow: 0px 0px 4px #000000;
-  }
-
-li {
-     list-style-type:none;
-}
-
 .img-circle {
     border-radius: 50%;
   }
@@ -55,18 +58,36 @@ li {
   }
   .card {
     background-color: white;
-    padding: 40px;
     box-shadow: 0px 10px 30px rgb(0 0 0 / 10%);
     border-radius: 4px;
-    margin: 20px 0px;
+    margin-bottom: 5px;
     text-align: center;
+    display: block !important;
   }
 
-ul {
-    display: inline-block;
-    color: crimson;
+  ul {
+    display: flex;
+    justify-content: center;
+    text-align: center;
+    padding-left: 0px !important;
+  }
+
+  li {
+    width: 2rem;
+    margin: 1.5rem;
+    list-style-type:none;
+  }
+
+.social-icon {
+  font-size: 3rem;
+  color: #176ae7;
 }
-.list-line {
-    list-style: none;
-    padding-left: 0px;
+
+.social-icon:hover {
+color: bisque;
+transition: opacity 1s ease-in-out;
 }
+
+
+
+
